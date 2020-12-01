@@ -1,5 +1,15 @@
 # My [Advent of Code](https://adventofcode.com) solutions
 
+## 2020
+
+**Language:** Python 3
+
+```
+2020-01-A: 793524
+2020-01-B: 61515678
+```
+
+
 ## 2019
 
 **Language:** Python 3
