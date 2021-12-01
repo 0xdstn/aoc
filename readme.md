@@ -1,5 +1,15 @@
 # My [Advent of Code](https://adventofcode.com) solutions
 
+## 2021
+
+**Language:** Javascript
+
+```
+2021-01-A: 1752
+2021-01-B: 1781
+```
+
+
 ## 2020
 
 **Language:** Python 3
