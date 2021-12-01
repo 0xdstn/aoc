@@ -4,17 +4,7 @@ console.log('')
 console.log('[*] AoC 2021-01-B')
 console.log('')
 
-let data = []
-
-let lineReader = require('readline').createInterface({
-  input: require('fs').createReadStream('input.txt')
-})
-
-lineReader.on('line', function (line) {
-  data.push(parseInt(line))
-})
-
-lineReader.on('close', function () {
+require('../common/readInput.js').get('input.txt', (data) => {
   let windows = []
   const offset = 0
   for(let x = 0; x < data.length; x += 1) {
