@@ -5,7 +5,7 @@ module.exports.get = (filename, cb) => {
   })
 
   lineReader.on('line', function (line) {
-    data.push(parseInt(line))
+    data.push(line)
   })
 
   lineReader.on('close', function () {

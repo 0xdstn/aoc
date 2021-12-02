@@ -5,6 +5,9 @@ console.log('[*] AoC 2021-01-B')
 console.log('')
 
 require('../common/readInput.js').get('input.txt', (data) => {
+  for(let x in data) {
+    data[x] = parseInt(data[x])
+  }
   let windows = []
   const offset = 0
   for(let x = 0; x < data.length; x += 1) {
@@ -22,8 +25,10 @@ require('../common/readInput.js').get('input.txt', (data) => {
       if (x > prev) {
         inc++
         console.log(`${x} (increase)`)
-      } else {
+      } else if (x < prev) {
         console.log(`${x} (decrease)`)
+      } else {
+        console.log(`${x} (no change)`)
       }
     }
     prev = x
