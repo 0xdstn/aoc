@@ -34,6 +34,6 @@ require('../common/readInput.js').get('input.txt', (data) => {
     prev = x
   })
   console.log('')
-  console.log('Answer: ', inc)
+  console.log('Answer:', inc)
 })
 

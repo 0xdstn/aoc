@@ -35,6 +35,6 @@ require('../common/readInput.js').get('input.txt', (data) => {
   let epsilon = parseInt(epsilonBinary,2)
 
   console.log('')
-  console.log('Answer: ', gamma*epsilon)
+  console.log('Answer:', gamma*epsilon)
 })
 

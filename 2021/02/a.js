@@ -21,6 +21,6 @@ require('../common/readInput.js').get('input.txt', (data) => {
     }
   })
   console.log('')
-  console.log('Answer: ', depth*pos)
+  console.log('Answer:', depth*pos)
 })
 

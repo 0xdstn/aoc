@@ -36,5 +36,5 @@ require('../common/readInput.js').get('input.txt', (data) => {
   })
 
   console.log('')
-  console.log('Answer: ', BigInt(total).toString())
+  console.log('Answer:', total)
 })

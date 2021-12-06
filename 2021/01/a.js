@@ -27,6 +27,6 @@ lineReader.on('line', function (line) {
 
 lineReader.on('close', function () {
   console.log('')
-  console.log('Answer: ', inc)
+  console.log('Answer:', inc)
 })
 

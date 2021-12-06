@@ -27,5 +27,5 @@ require('../common/readInput.js').get('input.txt', (data) => {
   }
 
   console.log('')
-  console.log('Answer: ', fish.length)
+  console.log('Answer:', fish.length)
 })

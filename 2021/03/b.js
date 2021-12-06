@@ -81,6 +81,6 @@ require('../common/readInput.js').get('input.txt', (data) => {
   co2 = parseInt(data[0], 2)
 
   console.log('')
-  console.log('Answer: ', oxy*co2)
+  console.log('Answer:', oxy*co2)
 })
 
