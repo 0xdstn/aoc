@@ -1,5 +1,14 @@
 # My [Advent of Code](https://adventofcode.com) solutions
 
+## 2022
+
+**Language:** Javascript
+
+```
+2022-01-A: ?
+2022-01-B: ?
+```
+
 ## 2021
 
 **Language:** Javascript
