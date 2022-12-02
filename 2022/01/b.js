@@ -28,5 +28,5 @@ require('../common/readInput.js').get('input.txt', (data) => {
     answer = totals[0] + totals[1] + totals[2]
 
     console.log('')
-    console.log('Answer:', answer)
+    console.log('[!] Answer:', answer)
 })

@@ -21,5 +21,5 @@ require('../common/readInput.js').get('input.txt', (data) => {
     if(answer < cur) answer = cur
 
     console.log('')
-    console.log('Answer:', answer)
+    console.log('[!] Answer:', answer)
 })
