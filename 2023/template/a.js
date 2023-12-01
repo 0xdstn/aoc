@@ -4,14 +4,22 @@ var layout = require('../common/layout.js')
 
 layout.header('XX','A')
 
-require('../common/readInput.js').get('input-test.txt', (data) => {
-//require('../common/readInput.js').get('input.txt', (data) => {
+const expected = undefined;
 
-    var answer
+const process = (data) => {
+    var answer = undefined;
 
     data.forEach(x => {
         console.log('[+]',x)
     })
 
-    layout.answer(answer)
+    return answer
+};
+
+require('../common/readInput.js').get('input-test.txt', (data) => {
+    layout.test(process(data),expected);
 })
+
+//require('../common/readInput.js').get('input.txt', (data) => {
+//    layout.answer(process(data))
+//})
